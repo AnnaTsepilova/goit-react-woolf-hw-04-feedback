@@ -1,0 +1,14 @@
+.statisticsItem {
+  display: flex;
+}
+
+.text {
+  margin-right: 8px;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.textBold {
+  composes: text;
+  font-weight: bold;
+}
